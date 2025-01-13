@@ -1,0 +1,753 @@
+    body {
+        overflow: scroll;
+        overflow-x: hidden;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        background-color:lemonchiffon;
+    }
+
+    #cover {
+        background-color: #f5f7f8;
+        height: 852px;
+        width: 393px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    #header {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .akusigma {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        object-fit: fill;
+    }
+
+    #header>#bungkus {
+        position: relative;
+        width: 193px;
+        height: 260px;
+        margin-top: 80px;
+        }
+
+    #bingkai {
+        border-radius: 100px 100px 0 0;
+        width: 193px;
+        height: 260px;
+        border: 2px solid #f5f7f8;
+        box-shadow: inset 0.1px 4px 4px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 65px;
+        left: 17px;
+    }
+
+    #foto {
+        width: 157px;
+        height: 220px;
+        position: absolute;
+        top: px;
+        left: 18px;
+    }
+
+    #text-cover {
+        position: relative;
+        width: 100%;
+    }
+
+    .nama-pengantin,
+    .tanggal-header {
+        text-align: center;
+        margin: 16px;
+        font-size: 20px;
+        top: 1px;
+    }
+
+    #main {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .background {
+        background-color: #E8B86D;
+        border-radius: 12px;
+        width: 339px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
+    .yth,
+    .namatamu {
+        margin: 12px;
+        color: #185519;
+    }
+
+    .yth {
+        font-family:Libre Bodoni;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .namatamu {
+        font-family: Libre Baskerville;
+        font-size: 36px;
+    }
+
+    .bukaundangan {
+        margin-top: 40px;
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px 5px rgba(208, 164, 44, 0.1);
+        font-size: 16px;
+        font-family: Libre Baskerville;
+        background-color: #fcde70;
+        z-index: 2;
+        cursor: pointer;
+        font-weight: 800;
+    }
+
+    #quotes {
+        height: 852px;
+        width: 393px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    #quotes>#bungkus {
+        background-color: #F5F7F8;
+        height: 100%;
+        width: auto;
+        padding: 144px 36px;
+        align-items: center;
+        position: relative;
+
+    }
+
+    #quotes>#bungkus>.katamutiara {
+        font-family: Libre Baskerville;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        color: #185519;
+    }
+
+    #pemelai {
+        background-color: #F5F7F8   ;
+        height: 1430px;
+        width: 393px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    #pemelai>#bungkus {
+        width: 100%;
+        height: auto;
+        padding: 36px 20px;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #pemelai>#bungkus>.al-quran {
+        width: 100%;
+        height: 276px;
+        border-top: 2px solid #E8B86D;
+        border-bottom: 2px solid #E8B86D;
+    }
+
+    .ayat {
+        text-align: center;
+        color: #185519;
+    }
+
+    .ayat>.isi:nth-child(1) {
+        margin-top: 3.5%;
+    }
+
+    #pemelai>#bungkus>h1 {
+        font-family: Libre Bodoni;
+        text-align: center;
+        margin: 20px 2px 0 0;
+    }
+
+    #bungkus>.pemelai-isi {
+        width: 284px;
+        height: auto;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 36px 0;
+        background-color: #e8b86d;
+        border-radius: 36px;
+    }
+
+    #bungkus>.pemelai-isi>* {
+        z-index: 1;
+    }
+
+    .pemelai-isi>.foto {
+        width: 236px;
+        height: 236px;
+    }
+
+    .pemelai-isi>h5 {
+        font-size: 64px;
+        font-family: Imperial Script;
+        margin: 0;
+        color: #185519;
+        font-weight: lighter;
+    }
+
+    .pemelai-isi>p {
+        font-family: Cormorant Infant;
+        font-size: 16px;
+        margin: 0;
+        color: #185519;
+        font-weight: lightest;
+    }
+
+    #bungkus>.pemelai-isi>.foto>img {
+        width: 100%;
+        height: 100%;
+        border-radius: 36px;
+        object-fit: cover;
+    }
+
+    .pemelai-isi:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    .sosmed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .icon-sosmed {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-sosmed>a>.rectangle {
+        width: 32px;
+        height: 32px;
+        background-color: #FCDE70;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 8px;
+        padding: 2px;
+        justify-content: space-between;
+    }
+
+
+    .icon-sosmed>a>.rectangle>img {
+        padding: 2px;
+    }
+
+    #event {
+        background-color: #f5f7f8;
+        height: 1430px;
+        width: 393px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+        font-style: #185519;
+    }
+
+    #event>#bungkus {
+        width: 100%;
+        height: auto;
+        padding: 36px 20px;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #event>#bungkus>.event-header {
+        display: flex;
+        height: auto;
+        margin: auto 14px;
+    }
+
+    #event>#bungkus>.event-header>#text {
+        width: 100%;
+    }
+
+    #event>#bungkus>.event-header>#text>.a {
+        font-family: Cormorant Infant;
+        font-size: 32px;
+        margin: 0;
+        color: #185519;
+    }
+
+    #event>#bungkus>.event-header>#text>.b {
+        font-family: Imperial Script;
+        font-size: 64px;
+        margin: -28px 0 0 -4px;
+        color: #185519;
+    }
+
+    #event>#bungkus>.akadnikah>.gambar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #event>#bungkus>.akadnikah>.gambar>.isi {
+        z-index: 2;
+    }
+
+    #event>#bungkus>.akadnikah>.gambar>.border {
+        height: 275px;
+        width: 275px;
+        background-color: #f5f7f8;
+        z-index: 1;
+        position: absolute;
+        top: 138px;
+        background-color: #FCDE70;   
+    }
+
+    #event>#bungkus>.akadnikah>.gambar>.isi>.kotak {
+        height: 234px;
+        width: 234px;
+        overflow: hidden;
+        margin: 36px 0 0 0;
+    }
+
+    #event>#bungkus>.akadnikah>.gambar>.isi>.kotak>img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    #event>#bungkus>.akadnikah>.gambar>.isi>p {
+        font-family: Corinthia;
+        font-size: 48px;
+        margin: -58px 0 0 0;
+        text-align: center;
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara {
+        width: 324px;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 35px auto 0 auto;
+        position: relative;
+    }
+
+    .box-detail {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        gap: 20px
+    }
+
+    .box-detail .box-akad, .box-detail .box-resepsi {
+        height: 45%;
+        width: 100%;
+        background-color: #E8B86D;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: start;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .box-detail .tanggal {
+        font-size: 18px;
+        font-weight: bolder;
+        color: #185519;
+        font-family: Libre Baskerville;
+    }
+
+    .box-detail .title-acara {
+        font-size: 32px;
+        color: #185519;
+        margin: 0;
+        font-family: Libre Bodoni;
+        font-weight:bolder
+    }
+
+    .box-detail .tempat {
+        font-size: larger;
+        margin-bottom: 0;
+        color: #185519;
+    }
+
+    .box-detail span {
+        font-weight: lighter;
+        margin-bottom: 1rem;
+        color: #185519;
+    }
+
+    .box-detail .location {
+        background-color: #FCDE70;
+        width: 80%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 10px;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+    }
+
+
+    .box-detail .location .logo {
+        height: 100%;
+        width: 3rem;
+        background-image: url("clarity_date-line.svg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .box-detail .location .lokasi-logo {
+        background-image: url("bxs_map.svg");
+    }
+
+    .box-detail .location p {
+        margin-left: 2rem;
+        font-size: larger;
+        color: #185519;
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara>.a {
+        font-size: 32px;
+        font-family: Cormorant Infant;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara>.countdown {
+        width: 324px;
+        height: auto;
+        margin: 8px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara>.countdown>.box {
+        height: 75px;
+        width: 75px;
+        background-color: #FCDE70;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2px;
+        justify-content: center;
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara>.countdown>.box>p {
+        font-family: Cormorant Infant;
+        font-size: 30px;
+        margin: 0;
+        font-weight: bold;
+        color: var(--sterang);
+    }
+
+    #event>#bungkus>.akadnikah>.ketacara>.countdown>.box>span {
+        font-family: Cormorant Infant;
+        font-size: 20px;
+        margin: 0;
+        font-weight: bolder;
+        color: var(--sterang);
+    }
+
+
+    #event>#bungkus>.akadnikah>.ketacara>.b {
+        font-size: 32px;
+        font-family: Cormorant Infant;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .slider{
+        width: 330px;
+        height: 200px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .slider .list{
+        position: absolute;
+        width: max-content;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        transition: 1s;
+    }
+    .slider .list img{
+        width: 330px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .slider .buttons{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider .buttons button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FCDE70;
+        color: #185519;
+        border: none;
+        font-family: monospace;
+        font-weight: bolder;
+        align-self: center;
+    }
+
+    #rsvp-ucapan {
+        background-color: #F5F7F8;
+        height: 100%;
+        width: 393px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+      
+      #rsvp-ucapan > div {
+        width: 100%;
+      }
+      
+    .rsvp {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        gap: 5px;
+        background-color: #E8B86D;
+        border-radius: 24px;
+    }
+
+    .rsvp form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        z-index: 10;
+    }
+
+    .rsvp h3 {
+        color: #185519;
+        font-size: 20px;
+    }
+    .rsvp input, .rsvp textarea {
+        width: 99%;
+        border: none;
+        outline: none;
+        height: 2.2rem;
+        box-sizing: border-box;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .rsvp textarea {
+        resize: none;
+        height: 6rem;
+    }
+
+    .rsvp .konfirmasi .konfir{
+        display: flex;
+        width: 50%;
+    }
+
+    .rsvp .konfirmasi input {
+        width: 25px;
+    }
+    .rsvp label, input {
+        color:#185519;
+    }
+
+
+
+    .rsvp input, textarea, .checkbox {
+        background-color: #FCDE70;
+    }
+
+    .rsvp button {
+        height: 3rem;
+        border-radius: 10px;
+        border: none;
+        font-size: larger;
+        cursor: pointer;
+    }
+
+    #rsvp-ucapan>#bungkus {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #rsvp-ucapan .penutup {
+        height: auto;
+        width: 353px;
+        text-align: center;
+        margin: 0; 
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        border-radius: 5%;
+    }
+
+    #rsvp-ucapan .penutup h1 {
+        font-size: 64px;
+        font-family: Libre Baskerville;
+        line-height: 56px;
+        margin: 0;
+        color: #185519;
+    }
+
+    #rsvp-ucapan .penutup p {
+        font-family:Libre Baskerville;
+        line-height: 15px;
+        color: #185519;
+        font-weight: bolder;
+    }
+
+    #rsvp-ucapan .penutup p:nth-child(2) {
+        margin: 20px 0 23.5px 0;
+    }
+    
+    #rsvp-ucapan .penutup p:nth-child(4) {
+        margin: 23.5px 0 24px 0;
+    }
+    
+    #rsvp-ucapan .penutup p:nth-child(6) {
+        margin: 23.5px 0 12px 0;
+    }
+
+    #rsvp-ucapan .penutup  p:nth-child(7) {
+        margin: 0px 0 6px 0;
+    }
+
+    #rsvp-ucapan .penutup p:nth-child(8) {
+        margin: 2px 0 6px 0;
+    }
+
+    #rsvp-ucapan .penutup p:nth-child(9) {
+        margin: 0x 0 0px 0;
+    }
+    
+    #rsvp-ucapan .penutup>.keluarga {
+        display: flex;
+        text-align: center;
+        height: 84px;
+        width: 321px;
+        justify-content: space-around;
+        margin: 0 auto 10% auto;
+    }
+
+    #rsvp-ucapan .penutup>.keluarga div {
+        width: 155px;
+        background-color: #E8B86D;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #rsvp-ucapan .penutup>.keluarga div > p {
+        font-family: Libre Baskerville;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0;
+    }
+    
+    #rsvp-ucapan .penutup>.keluarga div > h5 {
+        font-family: Libre Baskerville;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 8px 0 12px 0;
+        color: #185519;
+    }
+
+    @media screen and (min-width: 1000px) {
+        body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+    
+    
+        body > .dekstop {
+            position: absolute;
+            top: 0;
+            height: 100dvh;
+            width: 100%;
+            background-color: lemonchiffon;
+            margin-top: -7000px;
+            display: flex;
+        }
+    }
